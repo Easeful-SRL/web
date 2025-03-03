@@ -6,6 +6,6 @@ export default async function ProductsPage(
   }
 ) {
     return (
-      <div><Button>Click me</Button>Hello World! {searchParams.query}</div>
+      <div><Button>Click me</Button>Hello World! {(await props.searchParams).q}</div>
   );
 }
