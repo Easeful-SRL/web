@@ -6,8 +6,6 @@ import { SearchInput } from './search';
 
 export default function DashboardLayout({
   children
-}: {
-  children: React.ReactNode;
 }) {
   return (
     <Providers>

@@ -13,10 +13,6 @@ export function NavItem({
   href,
   label,
   children
-}: {
-  href: string;
-  label: string;
-  children: React.ReactNode;
 }) {
   const pathname = usePathname();
 

@@ -10,8 +10,8 @@ export function SearchInput() {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
 
-  function searchAction(formData: FormData) {
-    let value = formData.get('q') as string;
+  function searchAction(formData) {
+    let value = formData.get('q');
     let params = new URLSearchParams({ q: value });
     startTransition(() => {
       router.replace(`/?${params.toString()}`);
