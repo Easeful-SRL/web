@@ -1,4 +1,4 @@
-export function UsersIcon(props: React.SVGProps<SVGSVGElement>) {
+export function UsersIcon(props) {
   return (
     <svg
       {...props}
@@ -20,7 +20,7 @@ export function UsersIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export function SettingsIcon(props: React.SVGProps<SVGSVGElement>) {
+export function SettingsIcon(props) {
   return (
     <svg
       {...props}
@@ -40,7 +40,7 @@ export function SettingsIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export function SearchIcon(props: React.SVGProps<SVGSVGElement>) {
+export function SearchIcon(props) {
   return (
     <svg
       {...props}
@@ -108,7 +108,7 @@ export function Logo() {
   );
 }
 
-export function VercelLogo(props: React.SVGProps<SVGSVGElement>) {
+export function VercelLogo(props) {
   return (
     <svg
       {...props}
