@@ -1,4 +1,3 @@
-// import { mergeConfig } from "vite";
 /** @type { import('@storybook/nextjs').StorybookConfig } */
 
 const config = {
@@ -17,14 +16,5 @@ const config = {
     options: {}
   },
   staticDirs: ['../public']
-  // async viteFinal(config) {
-  //   return mergeConfig(config, {
-  //     css: {
-  //       postcss: {
-  //         plugins: [require('tailwindcss'), require('autoprefixer')]
-  //       }
-  //     }
-  //   });
-  // }
 };
 export default config;
